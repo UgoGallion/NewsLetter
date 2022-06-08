@@ -1,0 +1,130 @@
+    body {
+        width: 976px; margin: 5px auto;
+        font-family: 'Times New Roman', Times, sans-serif;
+    }
+
+    h1.titre { text-align: center; color: rgb(15, 15, 15); background-color: #0bb40b; margin-top: 0px;}
+
+    .comment {
+        width: 60%;
+        height: 100px;
+        padding: 10px;
+        outline: 0;
+        border: 3px solid #1c87c9;
+        background: #d0e2bc;
+        line-height: 20px;
+        resize : none;
+    }
+    .title {
+        padding: 10px;
+        outline: 0;
+        border: 3px solid #1c87c9;
+        background: #d0e2bc;
+        line-height: 20px;
+        resize : none;
+    }
+    #btn {
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background-color: green;
+    }
+    .deconnexion_container {
+        display: flex;
+        align-items: flex-end;
+    }
+    .deconnexion {
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
+        border-radius: 30px;
+        background-color: red;
+        height: 40px;
+        width: 100px;
+    }
+    .views {
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
+        border-radius: 30px;
+        background-color: gray;
+    }
+    #actionView {
+        width: 500px; 
+        height: 200px;
+        padding-top: 50px; 
+        padding-bottom: 50px;
+        border: 3px solid #1c87c9; 
+        text-align: center;
+        background: #d0e2bc;
+    }
+    #couleurButtonYellow {
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: Arial,sans-serif;
+        width: 100px;
+        padding: 7px 10px;
+        color: #333;
+        background-color: yellow;
+    }
+    #couleurButtonGreen {
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: Arial,sans-serif;
+        width: 100px;
+        padding: 7px 10px;
+        color: #333;
+        background-color: green;
+    }
+    #couleurButtonRed {
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: Arial,sans-serif;
+        width: 100px;
+        padding: 7px 10px;
+        color: #333;
+        background-color: red;
+    }
+    #couleurButtonBlack {
+        text-align: center;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: Arial,sans-serif;
+        width: 100px;
+        padding: 7px 10px;
+        color: #333;
+        background-color: black;
+    }
+
+    p.validate {
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
+        border-radius: 30px;
+        color: rgb(50, 53, 50); 
+        background-color: #089920;
+        border: 1px solid rgb(12, 194, 6);
+        padding: 3px 5px;
+        text-align: center;
+        width: 35%;
+    }
+
+    footer {
+        top: 0;
+    }
+
+    section.bas {
+        display: flex;
+        justify-content: center;
+        background-color: #2f3131;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+        color: beige;
+        text-align: center;
+        padding: 40px;
+        text-decoration: underline;
+        font-size: 1.8em; font-style: italic;
+    }

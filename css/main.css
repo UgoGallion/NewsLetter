@@ -1,0 +1,99 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Arial';
+}
+
+/*****************************************************/
+/*         1. Layout                                 */
+/*****************************************************/
+
+body {
+    background-color: #38302A;
+    font-family:'Times New Roman', sans-serif;
+}
+
+/*****************************************************/
+/*         2. Header                                 */
+/*****************************************************/
+header {
+   background-color: rgb(216, 181, 83);
+   height: 5em;
+}
+  
+header h1 {
+    display: flex;
+    justify-content: center;
+    color: #fdfbf9;
+    padding: 15px;
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    top: 50%;
+    border: 3px solid #A0A0A0;
+    padding: 5px;
+}
+
+/*****************************************************/
+/*         3. Container                              */
+/*****************************************************/
+
+p.erreur {
+    display: flex;
+    justify-content: center;
+    color: red; background-color: #FFA3A3;
+    border: 1px solid red;
+    padding: 3px 5px;
+    text-align: center;
+}
+
+p.validate {
+    display: flex;
+    justify-content: center;
+    color: rgb(50, 53, 50); background-color: #089920;
+    border: 1px solid rgb(12, 194, 6);
+    padding: 3px 5px;
+    text-align: center;
+    width: 35%;
+}
+
+section.container div.item_form label.Newsletter {
+    color: rgb(209, 203, 203);
+}
+
+section.container div.item_form input {
+    margin: 5px;
+}
+
+section.container div.item_form input.button {
+    margin-left: 15vh;
+    height: 40px;
+    width: 40%;
+    color: #111111;
+    background-color: #8f582d;
+}
+
+/*****************************************************/
+/*         4. Footer                                 */
+/*****************************************************/
+footer {
+    top: 0;
+}
+
+section.bas {
+    display: flex;
+    justify-content: center;
+    background-color: #2f3131;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    color: beige;
+    text-align: center;
+    padding: 40px;
+    text-decoration: underline;
+  }
